@@ -1,0 +1,7 @@
+#define PORT 8080
+
+//////// NOTE! TOTAL_TRANSFER_BYTE == BUF_SIZE * PACKET_NUM
+#define BUF_SIZE (16384) // (1024 * 1024)
+// #define PACKET_NUM (1024 * 64)
+size_t PACKET_NUM = 1024 * 1024;
+// float TOTAL_TRANSFER_BYTES = (float) BUF_SIZE * PACKET_NUM;
